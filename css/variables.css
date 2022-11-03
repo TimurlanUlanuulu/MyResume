@@ -1,0 +1,59 @@
+:root {
+  /* FAMILY */
+  --main-family: "Montserrat", sans-serif;
+  --primary-family: "Roboto Mono", monospace;
+
+  /* COLORS */
+  --main-color: black;
+  --primary-color: #aaaaaa;
+  --secondary-color: #c90201;
+  --bg-color: #efeff7d9;
+
+  /* SIZES */
+  --main-size: 36px;
+  --primary-size: 12px;
+  --secondary-size: 14px;
+  --title-size: 18px;
+
+  /* HEIGHTS */
+  --primary-height: 24px;
+  --title-height: 1.1;
+
+  --container-width: 1140px;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --container-width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-width: 576px;
+    --main-size: 32px;
+    --primary-size: 8px;
+    --secondary-size: 10px;
+    --title-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --container-width: 320px;
+    --main-size: 26px;
+    --primary-size: 5px;
+    --secondary-size: 8px;
+    --title-size: 12px;
+  }
+}
+
+/* 
+12px 
+14px
+36px
+18px
+
+
+
+*/
